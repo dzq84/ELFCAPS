@@ -1,0 +1,36 @@
+{
+  "checkpoint": "ckpt/checkpoint",
+  "eval_predictions": "outputs/evals/elfcaps_audiocaps1test957_steps16_cfg3_mindec6_clean.jsonl",
+  "metrics": {
+    "bleu1": 51.19096472291426,
+    "bleu4": 13.508548062085522,
+    "rougeL": 42.58348291594953,
+    "meteor": 31.460734067401887,
+    "cider": 22.260929482222185,
+    "spice": 10.551447555995024,
+    "spider": 16.406188519108603
+  },
+  "behavior": {
+    "rows": 957,
+    "avg_tokens": 4.993730407523511,
+    "median_tokens": 5,
+    "short_le_4": 422,
+    "short_le_5": 650,
+    "any_core_bad": 508,
+    "aa": 74,
+    "and_a": 423,
+    "a_and_a": 24,
+    "ing_a": 98,
+    "ss": 34
+  },
+  "inference": {
+    "num_sampling_steps": 16,
+    "cfg_scale": 3,
+    "self_cond_cfg_scale": 1,
+    "max_decode_tokens": 32,
+    "min_decode_tokens": 6,
+    "clean_artifacts": true,
+    "use_raw_params": true
+  },
+  "model_name": "ELFCAPS"
+}

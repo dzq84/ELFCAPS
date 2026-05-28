@@ -1,0 +1,95 @@
+# Dataset
+data_path: "data/audiocaps2/train.csv"
+eval_data_path: "data/audiocaps2/val.csv"
+max_length: 96
+max_input_length: 32
+pad_token: pad
+
+# Encoder
+encoder_model_name: t5-small
+encoder_checkpoint: "embedded-language-flows/t5_small_encoder_jax/t5_small_encoder_jax.pkl"
+latent_mean: 0.0
+latent_std: 0.2
+
+# Audio conditioning
+# PE-a-frame features are precomputed and frozen; the audio encoder is not
+# trained end-to-end with the captioning objective.
+audio_conditioning: true
+audio_feature_dir: "data/audiocaps_pe_features"
+audio_feature_key: "audio_features"
+audio_feature_dim: 1024
+audio_num_prefix_tokens: 32
+audio_adapter_hidden_dim: 1024
+audio_adapter_dropout: 0.0
+
+# Model architecture
+model: ELF-B
+bottleneck_dim: 128
+num_time_tokens: 4
+num_self_cond_cfg_tokens: 4
+num_model_mode_tokens: 4
+
+# Denoiser objective
+denoiser_p_mean: 0.8
+denoiser_p_std: 0.8
+denoiser_noise_scale: 2.0
+t_eps: 0.05
+time_schedule: "logit_normal"
+xpred_mse_weight: 0.01
+xpred_cos_weight: 0.005
+trajectory_mse_weight: 0.05
+trajectory_cos_weight: 0.02
+trajectory_decoder_ce_weight: 0.05
+trajectory_steps: 2
+trajectory_start_t: 0.0
+trajectory_end_t: 1.0
+trajectory_cfg_scale: 3.0
+
+# Decoder objective
+decoder_prob: 0.35
+decoder_noise_scale: 1.0
+decoder_p_mean: 0.8
+decoder_p_std: 0.8
+eos_loss_weight: 4.0
+
+# Conditioning / CFG
+label_drop_prob: 0.1
+self_cond_prob: 0.5
+
+# Training
+epochs: 3
+global_batch_size: 8
+lr: 0.00002
+blr: 0.0002
+weight_decay: 0.0
+warmup_steps: 200
+optimizer: adamw
+
+# EMA
+ema_decay1: 0.9999
+
+# Sampling
+sampling_configs_path: "configs/cond_sampling_configs.yml"
+num_samples: 100
+
+# Logging & Checkpointing
+log_freq: 50
+save_freq: 0.25
+eval_freq: 1000
+log_model_summary: false
+
+# Output
+output_dir: "outputs/elfcaps"
+hf_repo_id: null
+init_checkpoint: null
+resume: null
+
+# Wandb
+use_wandb: false
+wandb_project: elf
+wandb_entity: null
+wandb_run_name: elfcaps-audiocaps2
+
+# Misc
+seed: 60
+num_workers: 0

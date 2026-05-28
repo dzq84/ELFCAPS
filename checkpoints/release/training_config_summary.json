@@ -1,0 +1,19 @@
+{
+  "model_name": "ELFCAPS",
+  "architecture": "ELF-B with audio prefix conditioning and T5-small latent text decoder",
+  "max_length": 96,
+  "audio_num_prefix_tokens": 32,
+  "audio_feature_dim": 1024,
+  "training_data": "AudioCaps 2.0 train.csv",
+  "base_config": "src/configs/training_configs/train_audiocaps_ELF-B_short96_baseopt_ce35_trajce005_lr2e5.yml",
+  "checkpoint": "ckpt/checkpoint",
+  "inference": {
+    "num_sampling_steps": 16,
+    "cfg_scale": 3,
+    "self_cond_cfg_scale": 1,
+    "max_decode_tokens": 32,
+    "min_decode_tokens": 6,
+    "clean_artifacts": true,
+    "use_raw_params": true
+  }
+}

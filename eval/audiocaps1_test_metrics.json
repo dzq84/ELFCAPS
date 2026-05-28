@@ -1,0 +1,22 @@
+{
+  "num_examples": 957,
+  "num_references_min": 2,
+  "num_references_max": 5,
+  "bleu1": 51.19096472291426,
+  "bleu2": 34.72061546086023,
+  "bleu3": 22.473604331769074,
+  "bleu4": 13.508548062085522,
+  "rougeL": 42.58348291594953,
+  "meteor": 31.460734067401887,
+  "meteor_available": true,
+  "cider": 22.260929482222185,
+  "spice": 10.551447555995024,
+  "spider": 16.406188519108603,
+  "cider_spice_available": true,
+  "scale": "0-100",
+  "notes": [
+    "BLEU is corpus BLEU-N with closest-reference brevity penalty and light tokenization.",
+    "ROUGE-L and METEOR use the best score over references when multiple references are present.",
+    "CIDEr, SPICE, and SPIDEr are computed with pycocoevalcap only when --coco_metrics is set."
+  ]
+}

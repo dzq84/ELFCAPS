@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+outputs/
+wandb/
+
+data/
+!data/.gitkeep
+
+checkpoints/release/checkpoint/
