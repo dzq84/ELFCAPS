@@ -27,24 +27,22 @@ Reference paper: [WavCaps: A ChatGPT-Assisted Weakly-Labelled Audio Captioning D
 
 ## Demo Examples
 
-The following selected examples were generated with the release checkpoint and default inference settings. GitHub README reliably renders the mel images below; the linked HTML demo provides full audio/video players for the same examples.
+The following selected examples were generated with the release checkpoint and default inference settings. Each player is an MP4 with a mel-spectrogram still frame and the original audio track.
 
-[Open the full audio demo page](demo/audio_demo.html).
-
-| # | Mel / audio | Reference caption | ELFCAPS prediction |
+| # | Audio demo | Reference caption | ELFCAPS prediction |
 |---:|---|---|---|
-| 1 | <img src="demo/mel/SGaIvgwwWSE_30.png" alt="mel spectrogram for SGaIvgwwWSE_30" width="260"><br>[SGaIvgwwWSE_30.wav](demo/audio/SGaIvgwwWSE_30.wav) | Rain falling on a hard surface as thunder roars in the distance | rain falls onto a hard surface and thunders |
-| 2 | <img src="demo/mel/Bz9Y5nZK3eo_21.png" alt="mel spectrogram for Bz9Y5nZK3eo_21" width="260"><br>[Bz9Y5nZK3eo_21.wav](demo/audio/Bz9Y5nZK3eo_21.wav) | Fast and loud typing on computer keyboard | a person is typing on a computer keyboard |
-| 3 | <img src="demo/mel/7XXSOzDQ2z0_70.png" alt="mel spectrogram for 7XXSOzDQ2z0_70" width="260"><br>[7XXSOzDQ2z0_70.wav](demo/audio/7XXSOzDQ2z0_70.wav) | An engine throttles and clanks and then suddenly accelerates off into the distance | a vehicle engine accelerates and revs |
-| 4 | <img src="demo/mel/BZCEDkx37rI_15.png" alt="mel spectrogram for BZCEDkx37rI_15" width="260"><br>[BZCEDkx37rI_15.wav](demo/audio/BZCEDkx37rI_15.wav) | A vehicle engine revving then running idle followed by cloth shuffling | a vehicle engine idles and revs |
-| 5 | <img src="demo/mel/CwxgQS3SXic_160.png" alt="mel spectrogram for CwxgQS3SXic_160" width="260"><br>[CwxgQS3SXic_160.wav](demo/audio/CwxgQS3SXic_160.wav) | A sewing machine operating | a sewing machine runs |
-| 6 | <img src="demo/mel/4bUL_ttiOdw_21.png" alt="mel spectrogram for 4bUL_ttiOdw_21" width="260"><br>[4bUL_ttiOdw_21.wav](demo/audio/4bUL_ttiOdw_21.wav) | A baby cries continuously | a baby cries |
-| 7 | <img src="demo/mel/9b6RqajfAmw_30.png" alt="mel spectrogram for 9b6RqajfAmw_30" width="260"><br>[9b6RqajfAmw_30.wav](demo/audio/9b6RqajfAmw_30.wav) | Pigeons cooing and flapping their wings | pigeons coo and birds chirping |
-| 8 | <img src="demo/mel/67BsqRkh-dU_10.png" alt="mel spectrogram for 67BsqRkh-dU_10" width="260"><br>[67BsqRkh-dU_10.wav](demo/audio/67BsqRkh-dU_10.wav) | A toilet flushing as music is playing and a man is singing in the distance | a toilet flushes and water splashes |
-| 9 | <img src="demo/mel/4ftDFi4684Y_30.png" alt="mel spectrogram for 4ftDFi4684Y_30" width="260"><br>[4ftDFi4684Y_30.wav](demo/audio/4ftDFi4684Y_30.wav) | Light rustling followed by faint ticks of a clock | a clock tick-tocks |
-| 10 | <img src="demo/mel/2a6GNu6uCDE_30.png" alt="mel spectrogram for 2a6GNu6uCDE_30" width="260"><br>[2a6GNu6uCDE_30.wav](demo/audio/2a6GNu6uCDE_30.wav) | A woman talking in an auditorium | a woman gives a speech |
+| 1 | <video src="https://github.com/dzq84/ELFCAPS/raw/main/demo/video/SGaIvgwwWSE_30.mp4" width="260"></video><br><a href="https://github.com/dzq84/ELFCAPS/raw/main/demo/audio/SGaIvgwwWSE_30.wav">SGaIvgwwWSE_30.wav</a> | Rain falling on a hard surface as thunder roars in the distance | rain falls onto a hard surface and thunders |
+| 2 | <video src="https://github.com/dzq84/ELFCAPS/raw/main/demo/video/Bz9Y5nZK3eo_21.mp4" width="260"></video><br><a href="https://github.com/dzq84/ELFCAPS/raw/main/demo/audio/Bz9Y5nZK3eo_21.wav">Bz9Y5nZK3eo_21.wav</a> | Fast and loud typing on computer keyboard | a person is typing on a computer keyboard |
+| 3 | <video src="https://github.com/dzq84/ELFCAPS/raw/main/demo/video/7XXSOzDQ2z0_70.mp4" width="260"></video><br><a href="https://github.com/dzq84/ELFCAPS/raw/main/demo/audio/7XXSOzDQ2z0_70.wav">7XXSOzDQ2z0_70.wav</a> | An engine throttles and clanks and then suddenly accelerates off into the distance | a vehicle engine accelerates and revs |
+| 4 | <video src="https://github.com/dzq84/ELFCAPS/raw/main/demo/video/BZCEDkx37rI_15.mp4" width="260"></video><br><a href="https://github.com/dzq84/ELFCAPS/raw/main/demo/audio/BZCEDkx37rI_15.wav">BZCEDkx37rI_15.wav</a> | A vehicle engine revving then running idle followed by cloth shuffling | a vehicle engine idles and revs |
+| 5 | <video src="https://github.com/dzq84/ELFCAPS/raw/main/demo/video/CwxgQS3SXic_160.mp4" width="260"></video><br><a href="https://github.com/dzq84/ELFCAPS/raw/main/demo/audio/CwxgQS3SXic_160.wav">CwxgQS3SXic_160.wav</a> | A sewing machine operating | a sewing machine runs |
+| 6 | <video src="https://github.com/dzq84/ELFCAPS/raw/main/demo/video/4bUL_ttiOdw_21.mp4" width="260"></video><br><a href="https://github.com/dzq84/ELFCAPS/raw/main/demo/audio/4bUL_ttiOdw_21.wav">4bUL_ttiOdw_21.wav</a> | A baby cries continuously | a baby cries |
+| 7 | <video src="https://github.com/dzq84/ELFCAPS/raw/main/demo/video/9b6RqajfAmw_30.mp4" width="260"></video><br><a href="https://github.com/dzq84/ELFCAPS/raw/main/demo/audio/9b6RqajfAmw_30.wav">9b6RqajfAmw_30.wav</a> | Pigeons cooing and flapping their wings | pigeons coo and birds chirping |
+| 8 | <video src="https://github.com/dzq84/ELFCAPS/raw/main/demo/video/67BsqRkh-dU_10.mp4" width="260"></video><br><a href="https://github.com/dzq84/ELFCAPS/raw/main/demo/audio/67BsqRkh-dU_10.wav">67BsqRkh-dU_10.wav</a> | A toilet flushing as music is playing and a man is singing in the distance | a toilet flushes and water splashes |
+| 9 | <video src="https://github.com/dzq84/ELFCAPS/raw/main/demo/video/4ftDFi4684Y_30.mp4" width="260"></video><br><a href="https://github.com/dzq84/ELFCAPS/raw/main/demo/audio/4ftDFi4684Y_30.wav">4ftDFi4684Y_30.wav</a> | Light rustling followed by faint ticks of a clock | a clock tick-tocks |
+| 10 | <video src="https://github.com/dzq84/ELFCAPS/raw/main/demo/video/2a6GNu6uCDE_30.mp4" width="260"></video><br><a href="https://github.com/dzq84/ELFCAPS/raw/main/demo/audio/2a6GNu6uCDE_30.wav">2a6GNu6uCDE_30.wav</a> | A woman talking in an auditorium | a woman gives a speech |
 
-The same examples are saved in `demo/infer_examples.json`, with raw audio under `demo/audio/`, mel images under `demo/mel/`, and mel videos under `demo/video/`.
+The same examples are saved in `demo/infer_examples.json`, with raw audio under `demo/audio/` and mel videos under `demo/video/`.
 
 ## Training Curves
 
