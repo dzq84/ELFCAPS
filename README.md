@@ -27,13 +27,13 @@ Reference paper: [WavCaps: A ChatGPT-Assisted Weakly-Labelled Audio Captioning D
 
 ## Demo Examples
 
-The following selected examples were generated with the release checkpoint and default inference settings. GitHub may render the audio column as links instead of inline players. For a full player table, open [`demo/audio_demo.html`](demo/audio_demo.html) locally or serve it with GitHub Pages.
+The following selected examples were generated with the release checkpoint and default inference settings. Each player is an MP4 with a mel-spectrogram still frame and the original audio track.
 
 <table>
   <thead>
     <tr>
       <th>#</th>
-      <th>Audio</th>
+      <th>Audio demo</th>
       <th>Reference caption</th>
       <th>ELFCAPS prediction</th>
     </tr>
@@ -41,68 +41,68 @@ The following selected examples were generated with the release checkpoint and d
   <tbody>
   <tr>
     <td>1</td>
-    <td><audio controls preload="none" src="demo/audio/SGaIvgwwWSE_30.wav"></audio><br><a href="demo/audio/SGaIvgwwWSE_30.wav">SGaIvgwwWSE_30.wav</a></td>
+    <td><video controls preload="metadata" width="260" src="demo/video/SGaIvgwwWSE_30.mp4"></video><br><a href="demo/audio/SGaIvgwwWSE_30.wav">SGaIvgwwWSE_30.wav</a></td>
     <td>Rain falling on a hard surface as thunder roars in the distance</td>
     <td>rain falls onto a hard surface and thunders</td>
   </tr>
   <tr>
     <td>2</td>
-    <td><audio controls preload="none" src="demo/audio/Bz9Y5nZK3eo_21.wav"></audio><br><a href="demo/audio/Bz9Y5nZK3eo_21.wav">Bz9Y5nZK3eo_21.wav</a></td>
+    <td><video controls preload="metadata" width="260" src="demo/video/Bz9Y5nZK3eo_21.mp4"></video><br><a href="demo/audio/Bz9Y5nZK3eo_21.wav">Bz9Y5nZK3eo_21.wav</a></td>
     <td>Fast and loud typing on computer keyboard</td>
     <td>a person is typing on a computer keyboard</td>
   </tr>
   <tr>
     <td>3</td>
-    <td><audio controls preload="none" src="demo/audio/7XXSOzDQ2z0_70.wav"></audio><br><a href="demo/audio/7XXSOzDQ2z0_70.wav">7XXSOzDQ2z0_70.wav</a></td>
+    <td><video controls preload="metadata" width="260" src="demo/video/7XXSOzDQ2z0_70.mp4"></video><br><a href="demo/audio/7XXSOzDQ2z0_70.wav">7XXSOzDQ2z0_70.wav</a></td>
     <td>An engine throttles and clanks and then suddenly accelerates off into the distance</td>
     <td>a vehicle engine accelerates and revs</td>
   </tr>
   <tr>
     <td>4</td>
-    <td><audio controls preload="none" src="demo/audio/BZCEDkx37rI_15.wav"></audio><br><a href="demo/audio/BZCEDkx37rI_15.wav">BZCEDkx37rI_15.wav</a></td>
+    <td><video controls preload="metadata" width="260" src="demo/video/BZCEDkx37rI_15.mp4"></video><br><a href="demo/audio/BZCEDkx37rI_15.wav">BZCEDkx37rI_15.wav</a></td>
     <td>A vehicle engine revving then running idle followed by cloth shuffling</td>
     <td>a vehicle engine idles and revs</td>
   </tr>
   <tr>
     <td>5</td>
-    <td><audio controls preload="none" src="demo/audio/CwxgQS3SXic_160.wav"></audio><br><a href="demo/audio/CwxgQS3SXic_160.wav">CwxgQS3SXic_160.wav</a></td>
+    <td><video controls preload="metadata" width="260" src="demo/video/CwxgQS3SXic_160.mp4"></video><br><a href="demo/audio/CwxgQS3SXic_160.wav">CwxgQS3SXic_160.wav</a></td>
     <td>A sewing machine operating</td>
     <td>a sewing machine runs</td>
   </tr>
   <tr>
     <td>6</td>
-    <td><audio controls preload="none" src="demo/audio/4bUL_ttiOdw_21.wav"></audio><br><a href="demo/audio/4bUL_ttiOdw_21.wav">4bUL_ttiOdw_21.wav</a></td>
+    <td><video controls preload="metadata" width="260" src="demo/video/4bUL_ttiOdw_21.mp4"></video><br><a href="demo/audio/4bUL_ttiOdw_21.wav">4bUL_ttiOdw_21.wav</a></td>
     <td>A baby cries continuously</td>
     <td>a baby cries</td>
   </tr>
   <tr>
     <td>7</td>
-    <td><audio controls preload="none" src="demo/audio/9b6RqajfAmw_30.wav"></audio><br><a href="demo/audio/9b6RqajfAmw_30.wav">9b6RqajfAmw_30.wav</a></td>
+    <td><video controls preload="metadata" width="260" src="demo/video/9b6RqajfAmw_30.mp4"></video><br><a href="demo/audio/9b6RqajfAmw_30.wav">9b6RqajfAmw_30.wav</a></td>
     <td>Pigeons cooing and flapping their wings</td>
     <td>pigeons coo and birds chirping</td>
   </tr>
   <tr>
     <td>8</td>
-    <td><audio controls preload="none" src="demo/audio/67BsqRkh-dU_10.wav"></audio><br><a href="demo/audio/67BsqRkh-dU_10.wav">67BsqRkh-dU_10.wav</a></td>
+    <td><video controls preload="metadata" width="260" src="demo/video/67BsqRkh-dU_10.mp4"></video><br><a href="demo/audio/67BsqRkh-dU_10.wav">67BsqRkh-dU_10.wav</a></td>
     <td>A toilet flushing as music is playing and a man is singing in the distance</td>
     <td>a toilet flushes and water splashes</td>
   </tr>
   <tr>
     <td>9</td>
-    <td><audio controls preload="none" src="demo/audio/4ftDFi4684Y_30.wav"></audio><br><a href="demo/audio/4ftDFi4684Y_30.wav">4ftDFi4684Y_30.wav</a></td>
+    <td><video controls preload="metadata" width="260" src="demo/video/4ftDFi4684Y_30.mp4"></video><br><a href="demo/audio/4ftDFi4684Y_30.wav">4ftDFi4684Y_30.wav</a></td>
     <td>Light rustling followed by faint ticks of a clock</td>
     <td>a clock tick-tocks</td>
   </tr>
   <tr>
     <td>10</td>
-    <td><audio controls preload="none" src="demo/audio/2a6GNu6uCDE_30.wav"></audio><br><a href="demo/audio/2a6GNu6uCDE_30.wav">2a6GNu6uCDE_30.wav</a></td>
+    <td><video controls preload="metadata" width="260" src="demo/video/2a6GNu6uCDE_30.mp4"></video><br><a href="demo/audio/2a6GNu6uCDE_30.wav">2a6GNu6uCDE_30.wav</a></td>
     <td>A woman talking in an auditorium</td>
     <td>a woman gives a speech</td>
   </tr>
   </tbody>
 </table>
 
-The same examples are saved in `demo/infer_examples.json`.
+The same examples are saved in `demo/infer_examples.json`, with raw audio under `demo/audio/` and mel videos under `demo/video/`.
 
 ## Training Curves
 

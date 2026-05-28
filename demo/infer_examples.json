@@ -2,51 +2,61 @@
   {
     "audio": "demo/audio/SGaIvgwwWSE_30.wav",
     "target": "Rain falling on a hard surface as thunder roars in the distance",
-    "prediction": "rain falls onto a hard surface and thunders"
+    "prediction": "rain falls onto a hard surface and thunders",
+    "video": "demo/video/SGaIvgwwWSE_30.mp4"
   },
   {
     "audio": "demo/audio/Bz9Y5nZK3eo_21.wav",
     "target": "Fast and loud typing on computer keyboard",
-    "prediction": "a person is typing on a computer keyboard"
+    "prediction": "a person is typing on a computer keyboard",
+    "video": "demo/video/Bz9Y5nZK3eo_21.mp4"
   },
   {
     "audio": "demo/audio/7XXSOzDQ2z0_70.wav",
     "target": "An engine throttles and clanks and then suddenly accelerates off into the distance",
-    "prediction": "a vehicle engine accelerates and revs"
+    "prediction": "a vehicle engine accelerates and revs",
+    "video": "demo/video/7XXSOzDQ2z0_70.mp4"
   },
   {
     "audio": "demo/audio/BZCEDkx37rI_15.wav",
     "target": "A vehicle engine revving then running idle followed by cloth shuffling",
-    "prediction": "a vehicle engine idles and revs"
+    "prediction": "a vehicle engine idles and revs",
+    "video": "demo/video/BZCEDkx37rI_15.mp4"
   },
   {
     "audio": "demo/audio/CwxgQS3SXic_160.wav",
     "target": "A sewing machine operating",
-    "prediction": "a sewing machine runs"
+    "prediction": "a sewing machine runs",
+    "video": "demo/video/CwxgQS3SXic_160.mp4"
   },
   {
     "audio": "demo/audio/4bUL_ttiOdw_21.wav",
     "target": "A baby cries continuously",
-    "prediction": "a baby cries"
+    "prediction": "a baby cries",
+    "video": "demo/video/4bUL_ttiOdw_21.mp4"
   },
   {
     "audio": "demo/audio/9b6RqajfAmw_30.wav",
     "target": "Pigeons cooing and flapping their wings",
-    "prediction": "pigeons coo and birds chirping"
+    "prediction": "pigeons coo and birds chirping",
+    "video": "demo/video/9b6RqajfAmw_30.mp4"
   },
   {
     "audio": "demo/audio/67BsqRkh-dU_10.wav",
     "target": "A toilet flushing as music is playing and a man is singing in the distance",
-    "prediction": "a toilet flushes and water splashes"
+    "prediction": "a toilet flushes and water splashes",
+    "video": "demo/video/67BsqRkh-dU_10.mp4"
   },
   {
     "audio": "demo/audio/4ftDFi4684Y_30.wav",
     "target": "Light rustling followed by faint ticks of a clock",
-    "prediction": "a clock tick-tocks"
+    "prediction": "a clock tick-tocks",
+    "video": "demo/video/4ftDFi4684Y_30.mp4"
   },
   {
     "audio": "demo/audio/2a6GNu6uCDE_30.wav",
     "target": "A woman talking in an auditorium",
-    "prediction": "a woman gives a speech"
+    "prediction": "a woman gives a speech",
+    "video": "demo/video/2a6GNu6uCDE_30.mp4"
   }
 ]
