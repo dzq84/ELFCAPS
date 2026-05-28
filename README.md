@@ -29,78 +29,18 @@ Reference paper: [WavCaps: A ChatGPT-Assisted Weakly-Labelled Audio Captioning D
 
 The following selected examples were generated with the release checkpoint and default inference settings. Each player is an MP4 with a mel-spectrogram still frame and the original audio track.
 
-<table>
-  <thead>
-    <tr>
-      <th>#</th>
-      <th>Audio demo</th>
-      <th>Reference caption</th>
-      <th>ELFCAPS prediction</th>
-    </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td>1</td>
-    <td><video controls preload="metadata" width="260" src="demo/video/SGaIvgwwWSE_30.mp4"></video><br><a href="demo/audio/SGaIvgwwWSE_30.wav">SGaIvgwwWSE_30.wav</a></td>
-    <td>Rain falling on a hard surface as thunder roars in the distance</td>
-    <td>rain falls onto a hard surface and thunders</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td><video controls preload="metadata" width="260" src="demo/video/Bz9Y5nZK3eo_21.mp4"></video><br><a href="demo/audio/Bz9Y5nZK3eo_21.wav">Bz9Y5nZK3eo_21.wav</a></td>
-    <td>Fast and loud typing on computer keyboard</td>
-    <td>a person is typing on a computer keyboard</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td><video controls preload="metadata" width="260" src="demo/video/7XXSOzDQ2z0_70.mp4"></video><br><a href="demo/audio/7XXSOzDQ2z0_70.wav">7XXSOzDQ2z0_70.wav</a></td>
-    <td>An engine throttles and clanks and then suddenly accelerates off into the distance</td>
-    <td>a vehicle engine accelerates and revs</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td><video controls preload="metadata" width="260" src="demo/video/BZCEDkx37rI_15.mp4"></video><br><a href="demo/audio/BZCEDkx37rI_15.wav">BZCEDkx37rI_15.wav</a></td>
-    <td>A vehicle engine revving then running idle followed by cloth shuffling</td>
-    <td>a vehicle engine idles and revs</td>
-  </tr>
-  <tr>
-    <td>5</td>
-    <td><video controls preload="metadata" width="260" src="demo/video/CwxgQS3SXic_160.mp4"></video><br><a href="demo/audio/CwxgQS3SXic_160.wav">CwxgQS3SXic_160.wav</a></td>
-    <td>A sewing machine operating</td>
-    <td>a sewing machine runs</td>
-  </tr>
-  <tr>
-    <td>6</td>
-    <td><video controls preload="metadata" width="260" src="demo/video/4bUL_ttiOdw_21.mp4"></video><br><a href="demo/audio/4bUL_ttiOdw_21.wav">4bUL_ttiOdw_21.wav</a></td>
-    <td>A baby cries continuously</td>
-    <td>a baby cries</td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td><video controls preload="metadata" width="260" src="demo/video/9b6RqajfAmw_30.mp4"></video><br><a href="demo/audio/9b6RqajfAmw_30.wav">9b6RqajfAmw_30.wav</a></td>
-    <td>Pigeons cooing and flapping their wings</td>
-    <td>pigeons coo and birds chirping</td>
-  </tr>
-  <tr>
-    <td>8</td>
-    <td><video controls preload="metadata" width="260" src="demo/video/67BsqRkh-dU_10.mp4"></video><br><a href="demo/audio/67BsqRkh-dU_10.wav">67BsqRkh-dU_10.wav</a></td>
-    <td>A toilet flushing as music is playing and a man is singing in the distance</td>
-    <td>a toilet flushes and water splashes</td>
-  </tr>
-  <tr>
-    <td>9</td>
-    <td><video controls preload="metadata" width="260" src="demo/video/4ftDFi4684Y_30.mp4"></video><br><a href="demo/audio/4ftDFi4684Y_30.wav">4ftDFi4684Y_30.wav</a></td>
-    <td>Light rustling followed by faint ticks of a clock</td>
-    <td>a clock tick-tocks</td>
-  </tr>
-  <tr>
-    <td>10</td>
-    <td><video controls preload="metadata" width="260" src="demo/video/2a6GNu6uCDE_30.mp4"></video><br><a href="demo/audio/2a6GNu6uCDE_30.wav">2a6GNu6uCDE_30.wav</a></td>
-    <td>A woman talking in an auditorium</td>
-    <td>a woman gives a speech</td>
-  </tr>
-  </tbody>
-</table>
+| # | Audio demo | Reference caption | ELFCAPS prediction |
+|---:|---|---|---|
+| 1 | <video src="https://github.com/dzq84/ELFCAPS/raw/main/demo/video/SGaIvgwwWSE_30.mp4" width="260"></video><br><a href="https://github.com/dzq84/ELFCAPS/raw/main/demo/audio/SGaIvgwwWSE_30.wav">SGaIvgwwWSE_30.wav</a> | Rain falling on a hard surface as thunder roars in the distance | rain falls onto a hard surface and thunders |
+| 2 | <video src="https://github.com/dzq84/ELFCAPS/raw/main/demo/video/Bz9Y5nZK3eo_21.mp4" width="260"></video><br><a href="https://github.com/dzq84/ELFCAPS/raw/main/demo/audio/Bz9Y5nZK3eo_21.wav">Bz9Y5nZK3eo_21.wav</a> | Fast and loud typing on computer keyboard | a person is typing on a computer keyboard |
+| 3 | <video src="https://github.com/dzq84/ELFCAPS/raw/main/demo/video/7XXSOzDQ2z0_70.mp4" width="260"></video><br><a href="https://github.com/dzq84/ELFCAPS/raw/main/demo/audio/7XXSOzDQ2z0_70.wav">7XXSOzDQ2z0_70.wav</a> | An engine throttles and clanks and then suddenly accelerates off into the distance | a vehicle engine accelerates and revs |
+| 4 | <video src="https://github.com/dzq84/ELFCAPS/raw/main/demo/video/BZCEDkx37rI_15.mp4" width="260"></video><br><a href="https://github.com/dzq84/ELFCAPS/raw/main/demo/audio/BZCEDkx37rI_15.wav">BZCEDkx37rI_15.wav</a> | A vehicle engine revving then running idle followed by cloth shuffling | a vehicle engine idles and revs |
+| 5 | <video src="https://github.com/dzq84/ELFCAPS/raw/main/demo/video/CwxgQS3SXic_160.mp4" width="260"></video><br><a href="https://github.com/dzq84/ELFCAPS/raw/main/demo/audio/CwxgQS3SXic_160.wav">CwxgQS3SXic_160.wav</a> | A sewing machine operating | a sewing machine runs |
+| 6 | <video src="https://github.com/dzq84/ELFCAPS/raw/main/demo/video/4bUL_ttiOdw_21.mp4" width="260"></video><br><a href="https://github.com/dzq84/ELFCAPS/raw/main/demo/audio/4bUL_ttiOdw_21.wav">4bUL_ttiOdw_21.wav</a> | A baby cries continuously | a baby cries |
+| 7 | <video src="https://github.com/dzq84/ELFCAPS/raw/main/demo/video/9b6RqajfAmw_30.mp4" width="260"></video><br><a href="https://github.com/dzq84/ELFCAPS/raw/main/demo/audio/9b6RqajfAmw_30.wav">9b6RqajfAmw_30.wav</a> | Pigeons cooing and flapping their wings | pigeons coo and birds chirping |
+| 8 | <video src="https://github.com/dzq84/ELFCAPS/raw/main/demo/video/67BsqRkh-dU_10.mp4" width="260"></video><br><a href="https://github.com/dzq84/ELFCAPS/raw/main/demo/audio/67BsqRkh-dU_10.wav">67BsqRkh-dU_10.wav</a> | A toilet flushing as music is playing and a man is singing in the distance | a toilet flushes and water splashes |
+| 9 | <video src="https://github.com/dzq84/ELFCAPS/raw/main/demo/video/4ftDFi4684Y_30.mp4" width="260"></video><br><a href="https://github.com/dzq84/ELFCAPS/raw/main/demo/audio/4ftDFi4684Y_30.wav">4ftDFi4684Y_30.wav</a> | Light rustling followed by faint ticks of a clock | a clock tick-tocks |
+| 10 | <video src="https://github.com/dzq84/ELFCAPS/raw/main/demo/video/2a6GNu6uCDE_30.mp4" width="260"></video><br><a href="https://github.com/dzq84/ELFCAPS/raw/main/demo/audio/2a6GNu6uCDE_30.wav">2a6GNu6uCDE_30.wav</a> | A woman talking in an auditorium | a woman gives a speech |
 
 The same examples are saved in `demo/infer_examples.json`, with raw audio under `demo/audio/` and mel videos under `demo/video/`.
 
