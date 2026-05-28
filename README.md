@@ -17,7 +17,7 @@ ELFCAPS/
 ├── checkpoints/release/     # place the released Orbax checkpoint here
 ├── demo/                    # JSON inference examples
 ├── eval/                    # reported AudioCaps 1.0 metrics
-└── assets/                  # training and metric figures
+└── assets/                  # training figures
 ```
 
 This is a clean single-checkpoint base model package. Inference uses one checkpoint and standard sampling settings.
@@ -230,14 +230,14 @@ The same examples are saved in `demo/infer_examples.json`.
 
 ## Training Curves
 
+The release training objective has two main parts: latent alignment keeps audio-conditioned text latents close to teacher caption latents, and decoder CE keeps those latents decodable as text. Both curves are smoothed for readability.
+
 <p align="center">
-  <img src="assets/training_loss_curve.png" alt="ELFCAPS training loss curve" width="760" />
+  <img src="assets/latent_alignment_loss.png" alt="Latent alignment loss" width="760" />
 </p>
 
-## Metric Summary
-
 <p align="center">
-  <img src="assets/metric_summary.png" alt="ELFCAPS metric summary" width="760" />
+  <img src="assets/decoder_ce_loss.png" alt="Decoder CE loss" width="760" />
 </p>
 
 ## Acknowledgements
